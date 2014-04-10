@@ -18,7 +18,7 @@
         "friendsofsymfony/comment-bundle": "dev-master"
     },
     "autoload": {
-        "psr-0": { "Sopinet\\Bundle\\TimelineBundle": "" }
+        "psr-0": { "Sopinet\\TimelineBundle": "" }
     },
     "target-dir": "Sopinet/TimelineBundle"
 }
