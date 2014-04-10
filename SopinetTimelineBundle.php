@@ -1,6 +1,6 @@
 <?php
 
-namespace Sopinet\TimelineBundle;
+namespace Sopinet\Bundle\TimelineBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
