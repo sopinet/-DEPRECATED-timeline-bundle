@@ -20,5 +20,5 @@
     "autoload": {
         "psr-0": { "Sopinet\\Bundle\\TimelineBundle": "" }
     },
-    "target-dir": "Sopinet/Bundle/TimelineBundle"
+    "target-dir": "Sopinet/TimelineBundle"
 }
