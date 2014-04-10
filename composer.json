@@ -1,0 +1,24 @@
+{
+    "name": "sopinet/timeline-bundle",
+    "version": "0.0.1",
+    "description": "Symfony2 Bundle - Easy integration for FOSCommentBundle",
+    "keywords": ["comments", "foscomment", "timeline", "symfony2", "bundle"],
+    "type": "symfony-bundle",
+    "license": "GPL2",
+    "minimum-stability" : "dev",
+    "authors": [
+        {
+            "name": "Luis Miguel López",
+            "email": "llopez@sopinet.com",
+            "homepage": "http://sopinet.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "friendsofsymfony/comment-bundle": "dev-master"
+    },
+    "autoload": {
+        "psr-0": { "Sopinet\\Bundle\\TimelineBundle": "" }
+    },
+    "target-dir": "Sopinet/Bundle/TimelineBundle"
+}
