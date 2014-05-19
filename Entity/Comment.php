@@ -35,6 +35,7 @@ class Comment extends BaseComment implements SignedCommentInterface, VotableComm
      *
      * @ORM\ManyToOne(targetEntity="Application\Sonata\UserBundle\Entity\User")
      * @var User
+     * @Exclude
      */
     protected $author;
     
