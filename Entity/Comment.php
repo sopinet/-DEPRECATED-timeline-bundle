@@ -97,4 +97,8 @@ class Comment extends BaseComment implements SignedCommentInterface, VotableComm
     
     	return $this->getAuthor()->getUsername();
     }
+    
+    public function __toString() {
+    	return $this->getBody();
+    }
 }
