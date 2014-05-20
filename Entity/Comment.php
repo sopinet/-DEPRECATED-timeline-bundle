@@ -45,6 +45,8 @@ class Comment extends BaseComment implements SignedCommentInterface, VotableComm
      * @var int
      */
     protected $score = 0;
+
+    public $authorName;
     
     /**
      * Sets the score of the comment.
