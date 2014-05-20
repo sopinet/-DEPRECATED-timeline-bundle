@@ -8,6 +8,7 @@ use FOS\CommentBundle\Entity\Comment as BaseComment;
 use FOS\CommentBundle\Model\SignedCommentInterface;
 use Symfony\Component\Security\Core\User\UserInterface;
 use FOS\CommentBundle\Model\VotableCommentInterface;
+use JMS\Serializer\Annotation\Exclude;
 
 /**
  * @ORM\Entity
